@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'arial';
+}
+
+.icon {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 37px;
+    width: 45px;
+    background-image: url('icon-company.png');
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+/*NAVBAR*/
+body .container nav .icon {
+    margin: 0;
+}
+
+body .container nav {
+    padding: 10px 70px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    background-color: black;
+    color: white;
+}
+
+body .container nav h4 {
+    font-size: 1.3rem;
+    font-weight: 100;
+    flex: 1;
+}
+
+body .container nav h4>b {
+    font-weight: 900;
+}
+
+nav .submit {
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+nav .submit:hover {
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+}
+
+nav .sign-in:hover {
+    background-color: rgba(118, 11, 199, 0.725);
+    color: white;
+    cursor: pointer;
+}
+
+
+nav .sign-in {
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 8px 16px;
+    font-size: 1.3rem;
+}
+
+/*FOOTER PART*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+footer .foot-ops .head {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+footer .foot-ops {
+    display: flex;
+    justify-content: space-between;
+    height: 240px;
+}
+
+footer .foot-ops ul>li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer .foot-ops .head:hover {
+    text-decoration: none;
+}
