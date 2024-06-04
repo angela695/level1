@@ -79,6 +79,133 @@ nav .sign-in {
     font-size: 1.3rem;
 }
 
+/*SEARCH PART */
+
+body .container search {
+    display: flex;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadbf1;
+    padding: 100px 200px;
+}
+
+body .container search h1 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+body .container search .search-bar {
+    height: 60px;
+    width: 60%;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+body .container search .search-bar>input,
+button {
+    height: 100%;
+    border: none;
+}
+
+body .container search .search-bar>input {
+    flex: 1;
+    padding: 0px 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 1.2rem;
+
+}
+
+body .container search .search-bar>button {
+    background-color: white;
+    padding: 5px 10px 0 10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+body .container search .search-bar>button:active {
+    background-color: grey;
+    border: none;
+}
+
+/*CONTENT PART*/
+
+body .container content {
+    padding: 100px;
+    display: grid;
+    justify-items: center;
+    grid-gap: 50px 30px;
+    grid-template-columns: repeat(2, auto);
+}
+
+/*CONTENT PICTURES*/
+body .container content>div {
+    display: flex;
+    justify-content: baseline;
+}
+    /*REMOVE THE BORDER LINING*/
+body .container content div .pic {
+    border: 1px solid black;
+}
+/*ENTERING PICUTRE IN THE .PICS*/
+
+body .container content div .pic1 {
+    width: 97px;
+    height: 108px;
+    background-image: url("pic1.png");
+    background-size : contain ;
+    background-repeat : no-repeat ;
+}
+body .container content div .pic2 {
+    width: 97px;
+    height: 108px;
+    background-image: url("pic2.png");
+    background-size : contain ;
+    background-repeat : no-repeat ;
+}
+body .container content div .pic3 {
+    width: 97px;
+    height: 108px;
+    background-image: url("pic3.png");
+    background-size : contain ;
+    background-repeat : no-repeat ;
+}
+body .container content div .pic4 {
+    width: 97px;
+    height: 108px;
+    background-image: url("pic4.png");
+    background-size : contain ;
+    background-repeat : no-repeat ;
+}
+body .container content div .pic5 {
+    width: 109px;
+    height: 108px;
+    background-image: url("pic5.png");
+    background-size : contain ;
+    background-repeat : no-repeat ;
+}
+body .container content div .pic6 {
+    width: 97px;
+    height: 108px;
+    background-image: url("pic6.png");
+    background-size : contain ;
+    background-repeat : no-repeat ;
+}
+
+    body .container content div>p {
+    text-align: justify;
+    padding-left: 20px;
+    flex: 2;
+}
+
+
+
+
 /*FOOTER PART*/
 footer {
     background-color: black;
