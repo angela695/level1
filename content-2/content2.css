@@ -136,68 +136,100 @@ body .container search .search-bar>button:active {
 /*CONTENT PART*/
 
 body .container content {
-    padding: 100px;
+    margin-bottom: 10%;
+    padding: 10% 12%;
     display: grid;
-    justify-items: center;
-    grid-gap: 50px 30px;
+    justify-items: flex-start;
+    grid-gap: 20% 10%;
     grid-template-columns: repeat(2, auto);
+}
+
+/*body .container content>div>p>p {
+    display : inline ;
 }
 
 /*CONTENT PICTURES*/
 body .container content>div {
     display: flex;
-    justify-content: baseline;
 }
-    /*REMOVE THE BORDER LINING*/
-body .container content div .pic {
+
+body .container content>div>.content>h4 {
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+
+body .container content>div>.content>p {
+    font-size: 1.3rem;
+}
+
+body .container content>div>.content p>a {
+    padding-top: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+body .container content>div>.content p>a>span {
+    font-size: 1rem;
+}
+
+/*REMOVE THE BORDER LINING*/
+/*body .container content div .pic {
     border: 1px solid black;
-}
+}*/
 /*ENTERING PICUTRE IN THE .PICS*/
 
 body .container content div .pic1 {
     width: 97px;
     height: 108px;
     background-image: url("pic1.png");
-    background-size : contain ;
-    background-repeat : no-repeat ;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 body .container content div .pic2 {
     width: 97px;
     height: 108px;
     background-image: url("pic2.png");
-    background-size : contain ;
-    background-repeat : no-repeat ;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 body .container content div .pic3 {
     width: 97px;
     height: 108px;
     background-image: url("pic3.png");
-    background-size : contain ;
-    background-repeat : no-repeat ;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 body .container content div .pic4 {
     width: 97px;
     height: 108px;
     background-image: url("pic4.png");
-    background-size : contain ;
-    background-repeat : no-repeat ;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 body .container content div .pic5 {
     width: 109px;
     height: 108px;
     background-image: url("pic5.png");
-    background-size : contain ;
-    background-repeat : no-repeat ;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 body .container content div .pic6 {
     width: 97px;
     height: 108px;
     background-image: url("pic6.png");
-    background-size : contain ;
-    background-repeat : no-repeat ;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-    body .container content div>p {
+body .container content>div>.content {
     text-align: justify;
     padding-left: 20px;
     flex: 2;
