@@ -6,3 +6,5 @@
 3.made some additions in the content 2 
 
 4. content 2 complete ! :) :> 
+
+5.added media queries for responsiveness :) 

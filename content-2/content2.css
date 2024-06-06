@@ -30,7 +30,7 @@ body .container nav .icon {
 }
 
 body .container nav {
-    padding: 10px 70px;
+    padding: 10px 2%;
     display: flex;
     align-items: center;
     column-gap: 15px;
@@ -88,7 +88,7 @@ body .container search {
     align-items: center;
     justify-content: center;
     background-color: #dadbf1;
-    padding: 100px 200px;
+    padding: 10% 7%;
 }
 
 body .container search h1 {
@@ -144,6 +144,7 @@ body .container content {
     grid-template-columns: repeat(2, auto);
 }
 
+
 /*body .container content>div>p>p {
     display : inline ;
 }
@@ -169,6 +170,10 @@ body .container content>div>.content p>a {
     display: flex;
     align-items: center;
     font-size: 1rem;
+}
+
+body .container content>div>.content p>a:hover {
+    text-decoration: underline;
 }
 
 body .container content>div>.content p>a>span {
@@ -239,29 +244,67 @@ body .container content>div>.content {
 
 
 /*FOOTER PART*/
+
 footer {
     background-color: black;
     color: white;
     padding: 50px;
 }
 
-footer .foot-ops .head {
+.foot-ops .head {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-footer .foot-ops {
+ .foot-ops {
     display: flex;
     justify-content: space-between;
     height: 240px;
 }
 
-footer .foot-ops ul>li:hover {
+ .foot-ops ul>li:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-footer .foot-ops .head:hover {
+ .foot-ops .head:hover {
     text-decoration: none;
+}
+
+/*MEDIA FOR SPECIFIC SCREEN SIZE*/
+
+@media (min-width : 1000px) and (max-width : 1250px) {
+    body .container content {
+        gap: 8% 8%;
+        padding: 7% 10%;
+    }
+}
+
+@media(max-width : 1000px) {
+    body .container content {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 60px;
+        margin-bottom: 0;
+    }
+
+    body .container search>h1 {
+        font-size: 3rem;
+    }
+
+    body .container search>.search-bar {
+        width: 90%;
+    }
+}
+
+@media (max-width : 900px) {
+    body .container>nav {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    body footer>.foot-ops ul:nth-child(2n+1) {
+        flex : 1 ;
+    }
+
 }
