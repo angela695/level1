@@ -8,3 +8,6 @@
 4. content 2 complete ! :) :> 
 
 5.added media queries for responsiveness :) 
+
+6. (08 / 06 / 2024) added content 3 project as well
+just not able to figure out how to align all those picutres in the main body

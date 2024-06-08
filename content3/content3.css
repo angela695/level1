@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/*NAV 1 PART*/
+body .nav1 {
+    backdrop-filter: blur(16px) ;
+    position: fixed;
+    padding: 3px 5px;
+    align-self: center;
+    margin: 2%;
+    height: 40px;
+    width: auto;
+    border: none;
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #e8e5e480;
+}
+
+body .nav1 button {
+    background-color: transparent;
+    padding: 0 30px;
+    border-radius: 30px;
+    border: none;
+}
+
+body .nav1 button:hover {
+    cursor : pointer ;
+    background-color: white;
+}
+
+/*NAV 2 PART*/
+
+body .nav2 {
+    margin: 150px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+
+body .nav2 .heading {
+
+    text-align: center;
+    font-size: 4rem;
+    width: 742px;
+    height: auto;
+}
+
+body .nav2 .nav2-ops {
+    padding: 3px 5px;
+    align-self: center;
+    height: 30px;
+    width: auto;
+    border: none;
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+}
+
+body .nav2 .nav2-ops button:nth-child(1) {
+    background-color: white;
+}
+
+body .nav2 .nav2-ops button {
+    padding: 0 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+/*PICTURES AND VIDEOS*/
+/*FOOTER PART 1 */
+
+body .foot1 {
+    margin: 150px 0 200px 0;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 40px;
+}
+
+body .foot1 .light-font {
+    color: #7f7f7f;
+}
+
+body .foot2 {
+    font-size: 0.8em;
+    padding: 0 1% 3% 1%;
+}
+
+/*FOOTER PART 2*/
+
+body .foot2 .logo {
+    position: absolute;
+    left: 3%;
+}
+
+body .foot2 .social-media {
+    margin-top: 7px;
+
+    position: absolute;
+    right: 3%;
+}
+
+body .foot2 .social-media .links {
+    padding: 0 5px;
+}
+body .foot2 .social-media .links:hover {
+    cursor : pointer ;
+    color : #7f7f7f;
+}
+/*LOGO PICTURE*/
+
+body .foot2 .logo .logo-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-image: url("logo-pic.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
