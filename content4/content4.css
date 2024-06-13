@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+body .application {
+    border-radius: 10px ;
+    height: auto;
+    width: 500px;
+    padding: 20px 15px 10px;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 100px;
+}
+
+body .application h1,
+h4 {
+    display: inline-block;
+    padding: 0px 5px 20px 0;
+}
+
+body .application h4 {
+    color: blue;
+}
+
+body .application form label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/*SETTING THE FORM ELEMENTS IN PLACE*/
+
+form {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-row-gap: 15px;
+    grid-column-gap: 12px;
+
+}
+
+form>div>input {
+    border : 1px solid black ;
+    border-radius: 5px;
+}
+
+form>div>select {
+    border-radius: 5px;
+}
+
+form .address {
+    grid-column: 1 / 3;
+    grid-row: 3/5;
+    width: 95%;
+}
+
+form .city,
+.pincode {
+    margin-top: 20px;
+    grid-row: 5/6;
+}
+
+
+form>div>input {
+    padding: 5px 8px;
+}
+
+form .address>input {
+    width: 100%;
+    height: 100px;
+}
+
+form div>input {
+    height: 35px;
+    width: 90%;
+
+}
+
+form div>select {
+    padding: 5px 2px;
+    height: 35px;
+    width: 95%;
+}
+
+form .file>input {
+    border: 1px solid black;
+}
+
+form div>label,
+input {
+    display: block;
+}
+
+form>button {
+    background-color: orangered;
+    color: white;
+    font-size : 1rem ;
+    grid-column: 2/3;
+    padding: 3px 2px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 140px;
+    border-radius : 3px ;
+    border : none ;
+}

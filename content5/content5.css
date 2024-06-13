@@ -1,0 +1,64 @@
+* {
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0 4%;
+    background-color: black;
+}
+
+/*SETTING PICTURES*/
+
+body section div>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+body section>div>.half {
+    height: 500px;
+}
+
+/*DONE SETTING THE PICTURES*/
+
+body section .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+body section .flex>h1 {
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    margin : 15% ;
+    background-color: rgb(74, 73, 73);
+    padding : 20px ;
+}
+body section>.flex>.pic-head {
+    background-color: rgba(74, 73, 73, 0.323);
+}
+
+section .content {
+    background-color: white;
+    color: grey;
+    width: inherit;
+    padding: 10px 150px 80px;
+    border: none;
+    text-align: center;
+}
+
+section .content h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+section .content p {
+    color: rgb(160, 160, 160);
+    line-height: 1.5rem;
+}
+
