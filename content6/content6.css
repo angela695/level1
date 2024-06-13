@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "arial";
+    font-weight: 100;
+}
+
+/*<!--section 1-->*/
+body .hero-page>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body .hero-page>div>img {
+    width: 100%;
+    object-fit: contain;
+}
+
+body .hero-page>div>div {
+    position: absolute;
+    color: white;
+    font-size: 4rem;
+    margin-top: 4%;
+}
+
+body .hero-page>div>div>p>small {
+    font-size: 2rem;
+}
+
+/*<!--section 2-->*/
+
+
+body .work {
+    padding: 50px 0;
+    background-color: rgb(28, 28, 28);
+}
+
+body .work>p {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+
+body .work>p>big-f {
+    font-size: 8rem;
+}
+
+/*section 3*/
+body .flex>div {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(180, 179, 179);
+    margin: 0 30px;
+}
+
+body .flex>div>h4,
+p {
+    margin: 10px 15px;
+
+}
+
+body .flex>div>p {
+    font-size: 0.9rem;
+    padding-bottom: 50px;
+}
+
+body .flex>div>h4 {
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+body .flex {
+    padding: 10% 13%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+/*adding animations*/
+
+body .flex>div:hover {
+    transform: translateY(-15px);
+    box-shadow: 3px 8px 8px rgba(180, 179, 179, 0.671);
+}
+
+/*section 4 = footer*/
+
+footer {
+    display: flex;
+    color: white;
+}
+
+footer section p {
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+footer section {
+    padding: 5% 5%;
+}
+
+footer .green {
+    background-color: rgb(99, 96, 2);
+}
+
+footer .red {
+    background-color: rgb(154, 50, 2);
+}
+
+
+footer .green>b {
+    font-size: 1.2rem;
+}
+
+footer section>h1 {
+    font-size: 4rem;
+}
+footer .green>b:hover {
+    cursor : pointer ;
+    text-decoration: underline;
+}
+/*ending*/
+
+body .ending {
+    background-color: black;
+    color: white;
+    padding: 2% 0;
+    text-align: center;
+    font-size: 2rem;
+}
