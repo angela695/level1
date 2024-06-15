@@ -17,3 +17,5 @@ just not able to figure out how to align all those picutres in the main body
 8. (13 / 06 / 2024) have added content 6 which is a intro website layout (yet to add responsiveness and animations)
 
 9. (14 / 06 / 2024) added content 7 yet to add footer and responsiveness
+
+10.(15 / 06 / 2024) added some responsiveness and footer to content 7 (yet to make changes) 
